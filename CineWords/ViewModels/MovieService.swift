@@ -37,7 +37,7 @@ class MovieService: ObservableObject{
     }
     
     
-    private let apikey = "6383c3f992cdeafb9ad30a25bd65ea40"
+    private let apikey = "YOUR_TMDB_API_KEY_HERE"
     private let baseURL = "https://api.themoviedb.org/3"
     
     func fetchPopularMovies() async throws {
